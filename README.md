@@ -46,13 +46,15 @@ Bảng Sinh viên (SinhVien):
 
 
 Bảng Nhân viên (NhanVien):
- + MaNV: Mã nhân viên là trường duy nhất để định danh từng nhân viên trong ban quản lý(là khóa chính).
- + HoTen: Họ và tên của nhân viên.
- + NgaySinh: Ngày sinh của nhân viên.
- + GioiTinh: Giới tính của nhân viên.
- + DiaChi: Địa chỉ của nhân viên.
- + ChucVu: Chức vụ của nhân viên trong ban quản lý.
- + SoDienThoai: Số điện thoại của nhân viên kí túc xá.
+ + MaNV: Mã nhân viên là trường duy nhất để định danh từng nhân viên trong ban quản lý. Kiểu dữ liệu CHAR(10); Mô tả: Mã số nhân viên.;
+   PK:là khóa chính.Định danh duy nhất cho mỗi nhân viên;FK:là khóa ngoại. Được tham chiếu trong bảng HopDong để xác định người lập hợp đồng;
+   NOT NULL vì ỗi nhân viên phải có mã số nhân viên.
+ + HoTen: Họ và tên của nhân viên; Kiểu dữ liệu NVARCHAR(100);NOT NULL vì mỗi nhân viên phải có tên.
+ + NgaySinh: Ngày sinh của nhân viên; Kiểu dữ liệu DATE; NOT NULL vì mỗi nhân viên phải có ngày sinh.
+ + GioiTinh: Giới tính của nhân viên; Kiểu dữ liệu NVARCHAR(10); NOT NULL vì thông tin giới tính là bắt buộc.
+ + DiaChi: Địa chỉ của nhân viên; Kiểu dữ liệu NVARCHAR(200); Có thể NULL vì không phải tất cả nhân viên đều có địa chỉ.
+ + ChucVu: Chức vụ của nhân viên trong ban quản lý; Kiểu dữ liệu NVARCHAR(50); Có thể NULL vì có thể không có thông tin về chức vụ của nhân viên.
+ + SoDienThoai: Số điện thoại của nhân viên kí túc xá;  Kiểu dữ liệu CHAR(10); Có thể NULL vì không phải tất cả nhân viên đều có số điện thoại.
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/50d21bc3-221d-43ce-81be-905101fc78ab)
 
