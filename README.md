@@ -33,9 +33,10 @@
    
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/007b7265-6e95-4d6d-9158-41e78ca6b9e2)
 
- + HoaDon (#SoHoaDon, @MaNhanVien, @SoPhong, @KhuNha, NgayLap, MaCongToDien, ChiSoDienDau, ChiSoDienCuoi, MaCongToNuoc, ChiSoNuocDau, ChiSoNuocCuoi, ThangGhiSo)
+ + HoaDon (#SoHoaDon, @MaNhanVien, @SoPhong, @KhuNha, NgayLap, MaCongToDien, ChiSoDienDau, ChiSoDienCuoi, MaCongToNuoc, ChiSoNuocDau, ChiSoNuocCuoi, ThangGhiSo, )
    
-   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/cc7c48c5-28f6-4871-95f6-db2721abdf25)
+   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b135f132-aaa6-49d7-95d0-a46992241ae6)
+
 
 
 3.4 
@@ -69,6 +70,14 @@ QUẢN LÝ BẢNG SINH VIÊN
 + thông tin SV003 đã được xóa
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b73a2a7e-9b0d-41e3-bbe6-383580f1212c)
+ + Tính tổng hóa đơn
+
+   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/3c3ca906-1c14-48a2-8a38-9a18b6b09e52)
+
+  + kết quả
+
+    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/66eecbfc-15e2-45ac-b66b-3e40a3152402)
+
 
 TIẾN ĐỘ 
 NGÀY 16/6/2024 TẠO CƠ SỞ DỮ LIỆU
