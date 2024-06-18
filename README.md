@@ -7,7 +7,8 @@
 
 3 MÔ TẢ BÀI TOÁN 
 3.1 Các chức năng 
-++ quản lí
++ quản lí sinh viên(thêm, sửa, xóa thông tin sinh viên và liệt kê tất cả các sinh viên trong bảng SinhVien bằng cursor)
++ quản lý hóa đơn(thêm 1 cột, sửa, xóa hóa đơn, tính tổng hóa đơn)
 
 
 TIẾN ĐỘ 
