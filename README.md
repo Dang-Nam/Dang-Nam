@@ -41,6 +41,9 @@
 3.4 
 * QUẢN LÝ BẢNG SINH VIÊN 
 + Thêm thông tin sinh viên
+
+
+  Tạo một Stored Procedure để thêm thông tin sinh viên vào bảng SinhVien.Stored Procedure này bao gồm các tham số đầu vào như mã sinh viên, họ tên, ngày sinh, giới tính, số chứng minh nhân dân, số điện thoại và lớp khoa. Khi thực thi, nó sẽ chèn một bản ghi mới vào bảng SinhVien với các giá trị tương ứng.
   
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/9052e658-6465-411d-a23c-c4bf5a2834f3)
 
