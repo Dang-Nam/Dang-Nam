@@ -50,6 +50,15 @@
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/45f40fd7-9f04-47a2-a9ad-87998ccc443b)
 
 
+
++ Sửa thông tin sinh viên
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b3052cae-0ef5-41be-af32-11456b9f34f5)
+  Thông tin SV003 đã được sửa
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/37a57a80-fa40-420b-a898-7d8878529de4)
+
+
 TIẾN ĐỘ 
 NGÀY 16/6/2024 TẠO CƠ SỞ DỮ LIỆU
 
