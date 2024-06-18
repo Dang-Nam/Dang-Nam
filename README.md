@@ -24,10 +24,17 @@
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/7424d5aa-f34d-49e5-923d-7d84794a1841)
 
 + thêm thông tin sinh viên
+
+
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/afe53195-2d51-44f6-8cfe-da045ccf1b61)
+  
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/17c1e014-3a50-409f-86bf-b247e9f85857)
-+ sửa thông tin sinh viên 
+  
++ sửa thông tin sinh viên
+  
+  
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/764ac561-534f-486f-b76d-a6279df6b482)
+
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/c33a9e9b-31d7-4fcc-8396-3cbea2da18c1)
 
 + Xóa thông tin sinh viên
@@ -44,27 +51,35 @@
 
 
 QUẢN LÝ BẢNG HÓA ĐƠN 
-+ Thêm cột ghichu vào bảng hóa đơn
++ Thêm 1 hóa đơn mới
 
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/35dd21c9-fa6c-4ee8-9a49-031e29b61bf1)
 
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/21b69f83-7592-475f-99b2-5bdb0f2f7610)
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/59f05b99-bd25-439e-b335-f0fda3b56327)
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1dc8bd84-bc1f-4d0d-88b6-0fa6da1ab8e1)
+
 
 + sửa thông tin hóa đơn
-  
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/61d9bab1-c513-4017-8f24-f354b77149df)
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/fe1d2b89-756f-49aa-ba00-32970393557a)
+
+
+   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/69f9247a-2875-4513-b870-2911fae8851e)
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/16677d12-5f10-4d7a-9868-b459e518e07e)
 
   +xóa hóa đơn
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/efaa243d-711a-454e-b55e-cb48665b0696)
+ 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/5c2d6622-f2f9-4309-883d-837d6444de75)
 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/aebd8e7a-574b-407f-811e-b5c8a1f1ab6c)
 
 
  + Tính tổng hóa đơn
 
+
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/3c3ca906-1c14-48a2-8a38-9a18b6b09e52)
 
   + kết quả
+
 
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/66eecbfc-15e2-45ac-b66b-3e40a3152402)
 
