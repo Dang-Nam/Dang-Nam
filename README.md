@@ -35,14 +35,18 @@
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/c33a9e9b-31d7-4fcc-8396-3cbea2da18c1)
 
-+ Xóa thông tin sinh viên
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/ff83fdd7-1451-4a66-ac17-6da4b13e56b5)
 
- + tThông tin SV003 đã được xóa
++ Xóa thông tin sinh viên
+
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/ff83fdd7-1451-4a66-ac17-6da4b13e56b5)
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b73a2a7e-9b0d-41e3-bbe6-383580f1212c)
 
+
 + Liệt kê tất cả các sinh viên trong bảng SinhVien bằng cursor
+
+  
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/6a670c6c-065d-43cb-9252-41bcb4ae2522)
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/342584a3-fae0-442b-8278-223b0a70774a)
@@ -64,7 +68,9 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/16677d12-5f10-4d7a-9868-b459e518e07e)
 
+
   +xóa hóa đơn
+
  
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/5c2d6622-f2f9-4309-883d-837d6444de75)
 
