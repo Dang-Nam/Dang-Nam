@@ -17,6 +17,64 @@
 
  + Báo cáo về tình trạng phòng
 
+3.3 Các bảng 
+
+
+Bảng Sinh viên (SinhVien):
+ + MaSV: Mã sinh viên là trường duy nhất để định danh từng sinh viên(là khóa chính).
+ + HoTen: Họ và tên của sinh viên.
+ + NgaySinh: Ngày sinh của sinh viên.
+ + GioiTinh: Giới tính của sinh viên.
+ + SoCMND: Số CMND của sinh viên.
+ + SoDienThoai: Số điện thoại của sinh viên.
+ + LopKhoa: Lớp và khóa học mà sinh viên đang học.
+
+
+Bảng Nhân viên (NhanVien):
+ + MaNV: Mã nhân viên là trường duy nhất để định danh từng nhân viên trong ban quản lý(là khóa chính).
+ + HoTen: Họ và tên của nhân viên.
+ + NgaySinh: Ngày sinh của nhân viên.
+ + GioiTinh: Giới tính của nhân viên.
+ + DiaChi: Địa chỉ của nhân viên.
+ + ChucVu: Chức vụ của nhân viên trong ban quản lý.
+ + SoDienThoai: Số điện thoại của nhân viên kí túc xá.
+
+
+Bảng Phòng (Phong):
+ + SoPhong: Số phòng là trường duy nhất để định danh từng phòng.
+ + KhuNha: Khu nhà mà phòng đó thuộc về.
+ + MaNV: Mã nhân viên quản lý phòng đó (khóa ngoại tham chiếu đến bảng Nhân viên).
+ + SoLuongSinhVien: Số lượng sinh viên đang ở trong phòng.
+ + TinhTrangPhong: Tình trạng hiện tại của phòng (trống, đã thuê, đang sửa chữa, ...).
+ + MoTaKhac: Các mô tả khác về phòng (ví dụ: diện tích, tiện nghi,...).
+
+   
+ Bảng Hợp đồng (HopDong):
+ + MaHD: Mã hợp đồng là trường duy nhất để định danh từng hợp đồng.
+ + MaSV: Mã sinh viên (khóa ngoại tham chiếu đến bảng Sinh viên).
+ + MaNV: Mã nhân viên lập hợp đồng (khóa ngoại tham chiếu đến bảng Nhân viên).
+ + SoPhong: Số phòng của hợp đồng (khóa ngoại tham chiếu đến bảng Phòng).
+ + KhuNha: Khu nhà của hợp đồng (khóa ngoại tham chiếu đến bảng Phòng).
+ + NgayLap: Ngày lập hợp đồng.
+ + NgayBatDau: Ngày bắt đầu thuê phòng.
+ + NgayKetThuc: Ngày kết thúc thuê phòng.
+
+   Bảng Hóa đơn (HoaDon):
+ + SoHoaDon: Số hóa đơn là trường duy nhất để định danh từng hóa đơn.
+ + MaNV: Mã nhân viên lập hóa đơn (khóa ngoại tham chiếu đến bảng Nhân viên).
+ + SoPhong: Số phòng của hóa đơn (khóa ngoại tham chiếu đến bảng Phòng).
+ + KhuNha: Khu nhà của hóa đơn (khóa ngoại tham chiếu đến bảng Phòng).
+ + NgayLap: Ngày lập hóa đơn.
+ + TongTien: Tổng tiền phải thanh toán trong hóa đơn.
+ + MaCongToDien: Mã công tơ điện.
+ + ChiSoDienDau: Chỉ số điện ban đầu.
+ + ChiSoDienCuoi: Chỉ số điện cuối.
+ + MaCongToNuoc: Mã công tơ nước.
+ + ChiSoNuocDau: Chỉ số nước ban đầu.
+ + ChiSoNuocCuoi: Chỉ số nước cuối.
+ + ThangGhiSo: Tháng ghi sổ hóa đơn.
+   
+
 
 3.3 Chức năng 
 
