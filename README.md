@@ -228,6 +228,25 @@ QUẢN LÝ BẢNG HÓA ĐƠN
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/66eecbfc-15e2-45ac-b66b-3e40a3152402)
 
 
+BÁO CÁO 
+
++ Báo cáo thông tin
+  
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/00063786-f1e4-4b8b-a3d5-0bd3ae512c7c)
+
++ Báo cáo về sử dụng nước
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/71297069-dc95-4131-81ed-0c27ac346493)
+
++ Báo cáo về tình trạng sinh viên
+  
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/be06b335-1ad9-4210-b8e3-5d2faea787de)
+
++-- Báo cáo về nhân viên có chức vụ là quản lý
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1ea0768a-c893-4e2e-817e-b757d7a5f6e4)
+
+
 TIẾN ĐỘ 
 NGÀY 16/6/2024 TẠO CƠ SỞ DỮ LIỆU
 
