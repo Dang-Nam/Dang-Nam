@@ -39,7 +39,7 @@
 
 
 3.4 
-* QUẢN LÝ BẢNG SINH VIÊN 
+QUẢN LÝ BẢNG SINH VIÊN 
 + Thêm thông tin sinh viên
 
 
@@ -56,11 +56,19 @@
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b3052cae-0ef5-41be-af32-11456b9f34f5)
 
 
-  Thông tin SV003 đã được sửa
++ Thông tin SV003 đã được sửa
   
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/37a57a80-fa40-420b-a898-7d8878529de4)
 
+
++ Xóa thông tin sinh viên
+
+ ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1e5775c3-fed2-4654-8c3d-08e34c5f62fe)
+
++ thông tin SV003 đã được xóa
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b73a2a7e-9b0d-41e3-bbe6-383580f1212c)
 
 TIẾN ĐỘ 
 NGÀY 16/6/2024 TẠO CƠ SỞ DỮ LIỆU
