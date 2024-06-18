@@ -14,7 +14,26 @@
 
   
 3.2 Báo cáo
- + Báo cáo về tình trạng phòng tThông tin SV003 đã được xóa
+
+ + Báo cáo về tình trạng phòng
+
+
+3.3 Chức năng 
++ hiện tất cả sinh viên
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/78c1a684-8886-4f67-b9cb-0b9f5aa1bb89)
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/7424d5aa-f34d-49e5-923d-7d84794a1841)
+
++ thêm thông tin sinh viên
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/afe53195-2d51-44f6-8cfe-da045ccf1b61)
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/17c1e014-3a50-409f-86bf-b247e9f85857)
++ sửa thông tin sinh viên 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/764ac561-534f-486f-b76d-a6279df6b482)
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/c33a9e9b-31d7-4fcc-8396-3cbea2da18c1)
+
++ Xóa thông tin sinh viên
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/ff83fdd7-1451-4a66-ac17-6da4b13e56b5)
+
+ + tThông tin SV003 đã được xóa
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b73a2a7e-9b0d-41e3-bbe6-383580f1212c)
 
