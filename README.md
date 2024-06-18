@@ -21,13 +21,26 @@
 
 
 Bảng Sinh viên (SinhVien):
- + MaSV: Mã sinh viên là trường duy nhất để định danh từng sinh viên(là khóa chính).
- + HoTen: Họ và tên của sinh viên.
- + NgaySinh: Ngày sinh của sinh viên.
- + GioiTinh: Giới tính của sinh viên.
- + SoCMND: Số CMND của sinh viên.
- + SoDienThoai: Số điện thoại của sinh viên.
- + LopKhoa: Lớp và khóa học mà sinh viên đang học.
+ + MaSV: Mã sinh viên là trường duy nhất để định danh từng sinh viên, kiểu dữ kiệu Char(10),  PK:Đây là khóa chính của bảng vì nó xác định từng bản ghi một. FK: Có, là khóa ngoại,liên kết với bảng HopDong để xác định hợp đồng của từng sinh viên.Not null: vì không thể để trống, mỗi sinh viên có 1 mã sinh viên duy nhất.
+
+   
+ + HoTen: Họ và tên của sinh viên.Kiểu dữ liệu: Nvarchar(50).Not Null: vì cần phải có họ tên sinh viên
+
+   
+ + NgaySinh:Mô tả: Ngày sinh của sinh viên.Kiểu dữ liệu DATE. NOT NULL Mỗi sinh viên phải có ngày sinh.
+
+
+ + GioiTinh: Giới tính của sinh viên. Kiểu dữ liệu NVARCHAR(10). NOT NULL vì thông tin giới tính là bắt buộc.
+
+   
+ + SoCMND: Số CMND của sinh viên. Kiểu dữ liệu :CHAR(12). Có thể NULL vì không phải tất cả sinh viên đều có số CMND.
+
+   
+ + SoDienThoai: Số điện thoại của sinh viên.Kiểu dữ liệu CHAR(10). Có thể NULL vì không phải tất cả sinh viên đều có số điện thoại.
+
+   
+ + LopKhoa: Lớp và khóa học mà sinh viên đang học.Kiểu dữ liệu NVARCHAR(50). Có thể NULL vì có thể không có thông tin về lớp khóa học.
+
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/21f3181f-54cf-413a-ade3-54bd6c654a3f)
 
