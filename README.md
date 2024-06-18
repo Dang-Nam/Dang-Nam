@@ -29,6 +29,8 @@ Bảng Sinh viên (SinhVien):
  + SoDienThoai: Số điện thoại của sinh viên.
  + LopKhoa: Lớp và khóa học mà sinh viên đang học.
 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/21f3181f-54cf-413a-ade3-54bd6c654a3f)
+
 
 Bảng Nhân viên (NhanVien):
  + MaNV: Mã nhân viên là trường duy nhất để định danh từng nhân viên trong ban quản lý(là khóa chính).
@@ -39,6 +41,8 @@ Bảng Nhân viên (NhanVien):
  + ChucVu: Chức vụ của nhân viên trong ban quản lý.
  + SoDienThoai: Số điện thoại của nhân viên kí túc xá.
 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/50d21bc3-221d-43ce-81be-905101fc78ab)
+
 
 Bảng Phòng (Phong):
  + SoPhong: Số phòng là trường duy nhất để định danh từng phòng.
@@ -48,7 +52,9 @@ Bảng Phòng (Phong):
  + TinhTrangPhong: Tình trạng hiện tại của phòng (trống, đã thuê, đang sửa chữa, ...).
  + MoTaKhac: Các mô tả khác về phòng (ví dụ: diện tích, tiện nghi,...).
 
-   
+   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/4b484562-38b3-4680-9c8f-6f871ee51c2d)
+
+
  Bảng Hợp đồng (HopDong):
  + MaHD: Mã hợp đồng là trường duy nhất để định danh từng hợp đồng.
  + MaSV: Mã sinh viên (khóa ngoại tham chiếu đến bảng Sinh viên).
@@ -58,6 +64,9 @@ Bảng Phòng (Phong):
  + NgayLap: Ngày lập hợp đồng.
  + NgayBatDau: Ngày bắt đầu thuê phòng.
  + NgayKetThuc: Ngày kết thúc thuê phòng.
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/802cd00d-409d-4bfd-b875-2cf3171de5bf)
+
 
    Bảng Hóa đơn (HoaDon):
  + SoHoaDon: Số hóa đơn là trường duy nhất để định danh từng hóa đơn.
@@ -74,6 +83,7 @@ Bảng Phòng (Phong):
  + ChiSoNuocCuoi: Chỉ số nước cuối.
  + ThangGhiSo: Tháng ghi sổ hóa đơn.
    
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/dbb839f7-23a2-47f0-8337-e22cd0ecdc95)
 
 
 3.3 Chức năng 
