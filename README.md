@@ -90,19 +90,34 @@ Có thể NULL vì không phải tất cả các phòng đều có tình trạng
 Có thể NULL vì có thể không có mô tả khác.
 
    
-   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/4b484562-38b3-4680-9c8f-6f871ee51c2d)
+   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/88c42a42-856b-4d3f-ba8d-9825ebbde0b2)
 
 
  Bảng Hợp đồng (HopDong):
 
  
- + MaHD: Mã hợp đồng là trường duy nhất để định danh từng hợp đồng.
- + MaSV: Mã sinh viên (khóa ngoại tham chiếu đến bảng Sinh viên).
- + MaNV: Mã nhân viên lập hợp đồng (khóa ngoại tham chiếu đến bảng Nhân viên).
- + SoPhong: Số phòng của hợp đồng (khóa ngoại tham chiếu đến bảng Phòng).
+ + MaHopDong: Mã số hợp đồng; Kiểu dữ liệu CHAR(10);
+PK: là khóa chính. Định danh duy nhất cho mỗi hợp đồng; NOT NULL vì mỗi hợp đồng phải có mã số hợp đồng
+   
+ + MaSinhVien: Mã số sinh viên liên quan đến hợp đồng ; Kiểu dữ liệu CHAR(10);
+FK: là khóa ngoại. Liên kết với bảng SinhVien để xác định sinh viên ký hợp đồng.
+NOT NULL vì mỗi hợp đồng phải có thông tin về sinh viên.
+   
+ + MaNhanVien: Mã số nhân viên lập hợp đồng; Kiểu dữ liệu CHAR(10);
+FK: là khóa ngoại. Liên kết với bảng NhanVien để xác định nhân viên lập hợp đồng;
+NOT NULL vì mỗi hợp đồng phải có thông tin về nhân viên lập hợp đồng.
+
+ + SoPhong: Số phòng liên quan đến hợp đồng; ;Kiểu dữ liệu CHAR(10);
+
+FK: là khóa ngoại. Liên kết với bảng Phong để xác định phòng thuê;
+NOT NULL vì ỗi hợp đồng phải có thông tin về
+   
  + KhuNha: Khu nhà của hợp đồng (khóa ngoại tham chiếu đến bảng Phòng).
+   
  + NgayLap: Ngày lập hợp đồng.
+   
  + NgayBatDau: Ngày bắt đầu thuê phòng.
+
  + NgayKetThuc: Ngày kết thúc thuê phòng.
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/802cd00d-409d-4bfd-b875-2cf3171de5bf)
