@@ -21,56 +21,81 @@
 
 
 Bảng Sinh viên (SinhVien):
- + MaSV: Mã sinh viên là trường duy nhất để định danh từng sinh viên, kiểu dữ kiệu Char(10),  PK:Đây là khóa chính của bảng vì nó xác định từng bản ghi một. FK: Có, là khóa ngoại,liên kết với bảng HopDong để xác định hợp đồng của từng sinh viên.Not null: vì không thể để trống, mỗi sinh viên có 1 mã sinh viên duy nhất.
 
+
+ + MaSV: Mã sinh viên là trường duy nhất để định danh từng sinh viên; kiểu dữ kiệu Char(10);  PK:Đây là khóa chính của bảng vì nó xác định từng bản ghi một; FK: Có, là khóa ngoại,liên kết với bảng HopDong để xác định hợp đồng của từng sinh viên; Not null: vì không thể để trống, mỗi sinh viên có 1 mã sinh viên duy nhất.
    
  + HoTen: Họ và tên của sinh viên.Kiểu dữ liệu: Nvarchar(50).Not Null: vì cần phải có họ tên sinh viên
-
    
  + NgaySinh:Mô tả: Ngày sinh của sinh viên.Kiểu dữ liệu DATE. NOT NULL Mỗi sinh viên phải có ngày sinh.
 
-
  + GioiTinh: Giới tính của sinh viên. Kiểu dữ liệu NVARCHAR(10). NOT NULL vì thông tin giới tính là bắt buộc.
-
    
  + SoCMND: Số CMND của sinh viên. Kiểu dữ liệu :CHAR(12). Có thể NULL vì không phải tất cả sinh viên đều có số CMND.
 
-   
  + SoDienThoai: Số điện thoại của sinh viên.Kiểu dữ liệu CHAR(10). Có thể NULL vì không phải tất cả sinh viên đều có số điện thoại.
-
    
  + LopKhoa: Lớp và khóa học mà sinh viên đang học.Kiểu dữ liệu NVARCHAR(50). Có thể NULL vì có thể không có thông tin về lớp khóa học.
 
+   
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/ffde3fd3-4465-405c-8286-a6311b0c477a)
 
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/21f3181f-54cf-413a-ade3-54bd6c654a3f)
 
 
 Bảng Nhân viên (NhanVien):
+
+
  + MaNV: Mã nhân viên là trường duy nhất để định danh từng nhân viên trong ban quản lý. Kiểu dữ liệu CHAR(10); Mô tả: Mã số nhân viên.;
    PK:là khóa chính.Định danh duy nhất cho mỗi nhân viên;FK:là khóa ngoại. Được tham chiếu trong bảng HopDong để xác định người lập hợp đồng;
    NOT NULL vì ỗi nhân viên phải có mã số nhân viên.
+   
  + HoTen: Họ và tên của nhân viên; Kiểu dữ liệu NVARCHAR(100);NOT NULL vì mỗi nhân viên phải có tên.
+   
  + NgaySinh: Ngày sinh của nhân viên; Kiểu dữ liệu DATE; NOT NULL vì mỗi nhân viên phải có ngày sinh.
+   
  + GioiTinh: Giới tính của nhân viên; Kiểu dữ liệu NVARCHAR(10); NOT NULL vì thông tin giới tính là bắt buộc.
+   
  + DiaChi: Địa chỉ của nhân viên; Kiểu dữ liệu NVARCHAR(200); Có thể NULL vì không phải tất cả nhân viên đều có địa chỉ.
+   
  + ChucVu: Chức vụ của nhân viên trong ban quản lý; Kiểu dữ liệu NVARCHAR(50); Có thể NULL vì có thể không có thông tin về chức vụ của nhân viên.
+   
  + SoDienThoai: Số điện thoại của nhân viên kí túc xá;  Kiểu dữ liệu CHAR(10); Có thể NULL vì không phải tất cả nhân viên đều có số điện thoại.
 
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/50d21bc3-221d-43ce-81be-905101fc78ab)
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/8dd798dc-0094-4438-ad1c-3acb96a52a6f)
+
 
 
 Bảng Phòng (Phong):
- + SoPhong: Số phòng là trường duy nhất để định danh từng phòng.
- + KhuNha: Khu nhà mà phòng đó thuộc về.
- + MaNV: Mã nhân viên quản lý phòng đó (khóa ngoại tham chiếu đến bảng Nhân viên).
- + SoLuongSinhVien: Số lượng sinh viên đang ở trong phòng.
- + TinhTrangPhong: Tình trạng hiện tại của phòng (trống, đã thuê, đang sửa chữa, ...).
- + MoTaKhac: Các mô tả khác về phòng (ví dụ: diện tích, tiện nghi,...).
 
+
+ + SoPhong: Số phòng là trường duy nhất để định danh từng phòng; Kiểu dữ liệu CHAR(10); PK: là phần của khóa chính cùng với KhuNha. Định danh duy nhất cho mỗi phòng trong từng khu nhà;
+FK: là phần của khóa ngoại. Được tham chiếu trong bảng HopDong và HoaDon để xác định phòng đã được thuê hoặc thanh toán; NOT NULL vì mỗi phòng phải có số phòng.
+   
+ + KhuNha: Khu nhà mà phòng đó thuộc về; Kiểu dữ liệu NVARCHAR(50);
+PK: là phần của khóa chính cùng với SoPhong. Định danh duy nhất cho mỗi phòng trong từng khu nhà.
+NOT NULL vì mỗi phòng phải thuộc vào một khu nhà.
+
+ + MaNV: Mã nhân viên quản lý phòng đó; Kiểu dữ liệu CHAR(10); 
+FK: là khóa ngoại. Liên kết với bảng NhanVien để chỉ định nhân viên phụ trách phòng; 
+Có thể NULL vì không phải tất cả các phòng đều có nhân viên phụ trách.
+
+ + SoLuongSinhVien: Số lượng sinh viên đang ở trong phòng; Kiểu dữ liệu INT;
+Có thể NULL vì không phải tất cả các phòng đều có thông tin về số lượng sinh viên.
+   
+ + TinhTrangPhong: Tình trạng hiện tại của phòng (trống, đã thuê, đang sửa chữa, ...); Kiểu dữ liệu NVARCHAR(50)
+Có thể NULL vì không phải tất cả các phòng đều có tình trạng cụ thể.
+   
+ + MoTaKhac: Các mô tả khác về phòng (ví dụ: diện tích, tiện nghi,...); Kiểu dữ liệu NVARCHAR(255);
+Có thể NULL vì có thể không có mô tả khác.
+
+   
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/4b484562-38b3-4680-9c8f-6f871ee51c2d)
 
 
  Bảng Hợp đồng (HopDong):
+
+ 
  + MaHD: Mã hợp đồng là trường duy nhất để định danh từng hợp đồng.
  + MaSV: Mã sinh viên (khóa ngoại tham chiếu đến bảng Sinh viên).
  + MaNV: Mã nhân viên lập hợp đồng (khóa ngoại tham chiếu đến bảng Nhân viên).
