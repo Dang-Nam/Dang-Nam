@@ -9,8 +9,8 @@
 
 
 3.1 Các chức năng 
-+ quản lí sinh viên( thêm, sửa, xóa thông tin sinh viên và liệt kê tất cả các sinh viên trong bảng SinhVien bằng cursor)
-+ quản lý hóa đơn(thêm 1 cột, sửa, xóa hóa đơn, tính tổng hóa đơn)
++ Quản lý sinh viên( thêm, sửa, xóa thông tin sinh viên và liệt kê tất cả các sinh viên trong bảng SinhVien(cursor))
++ Quản lý hóa đơn(thêm, sửa, xóa hóa đơn, tính tổng hóa đơn)
 
   
 3.2 Báo cáo
