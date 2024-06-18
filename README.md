@@ -11,6 +11,8 @@
 3.1 Các chức năng 
 + quản lí sinh viên(thêm, sửa, xóa thông tin sinh viên và liệt kê tất cả các sinh viên trong bảng SinhVien bằng cursor)
 + quản lý hóa đơn(thêm 1 cột, sửa, xóa hóa đơn, tính tổng hóa đơn)
+
+  
 3.2 Báo cáo
  + Báo cáo về tình trạng phòng trống và đã thuê.
  + Báo cáo về tình trạng sinh viên (số lượng, thông tin cá nhân).
@@ -34,6 +36,15 @@
  + HoaDon (#SoHoaDon, @MaNhanVien, @SoPhong, @KhuNha, NgayLap, MaCongToDien, ChiSoDienDau, ChiSoDienCuoi, MaCongToNuoc, ChiSoNuocDau, ChiSoNuocCuoi, ThangGhiSo)
    
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/cc7c48c5-28f6-4871-95f6-db2721abdf25)
+
+
+3.4 
+* QUẢN LÝ BẢNG SINH VIÊN 
++ Thêm thông tin sinh viên
+  
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/9052e658-6465-411d-a23c-c4bf5a2834f3)
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/45f40fd7-9f04-47a2-a9ad-87998ccc443b)
 
 
 TIẾN ĐỘ 
