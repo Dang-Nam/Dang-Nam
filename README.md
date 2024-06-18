@@ -99,46 +99,63 @@ Có thể NULL vì có thể không có mô tả khác.
  + MaHopDong: Mã số hợp đồng; Kiểu dữ liệu CHAR(10);
 PK: là khóa chính. Định danh duy nhất cho mỗi hợp đồng; NOT NULL vì mỗi hợp đồng phải có mã số hợp đồng
    
- + MaSinhVien: Mã số sinh viên liên quan đến hợp đồng ; Kiểu dữ liệu CHAR(10);
-FK: là khóa ngoại. Liên kết với bảng SinhVien để xác định sinh viên ký hợp đồng.
-NOT NULL vì mỗi hợp đồng phải có thông tin về sinh viên.
+ + MaSinhVien: Mã số sinh viên liên quan đến hợp đồng ; Kiểu dữ liệu CHAR(10);FK: là khóa ngoại. Liên kết với bảng SinhVien
+để xác định sinh viên ký hợp đồng; NOT NULL vì mỗi hợp đồng phải có thông tin về sinh viên.
    
- + MaNhanVien: Mã số nhân viên lập hợp đồng; Kiểu dữ liệu CHAR(10);
-FK: là khóa ngoại. Liên kết với bảng NhanVien để xác định nhân viên lập hợp đồng;
-NOT NULL vì mỗi hợp đồng phải có thông tin về nhân viên lập hợp đồng.
+ + MaNhanVien: Mã số nhân viên lập hợp đồng; Kiểu dữ liệu CHAR(10);FK: là khóa ngoại. Liên kết với bảng NhanVien
+để xác định nhân viên lập hợp đồng; NOT NULL vì mỗi hợp đồng phải có thông tin về nhân viên lập hợp đồng.
 
- + SoPhong: Số phòng liên quan đến hợp đồng; ;Kiểu dữ liệu CHAR(10);
-
-FK: là khóa ngoại. Liên kết với bảng Phong để xác định phòng thuê;
-NOT NULL vì ỗi hợp đồng phải có thông tin về
+ + SoPhong: Số phòng liên quan đến hợp đồng; ;Kiểu dữ liệu CHAR(10);FK: là khóa ngoại. Liên kết với
+ bảng Phong để xác định phòng thuê; NOT NULL vì mỗi hợp đồng phải có thông tin về
    
- + KhuNha: Khu nhà của hợp đồng (khóa ngoại tham chiếu đến bảng Phòng).
-   
- + NgayLap: Ngày lập hợp đồng.
-   
- + NgayBatDau: Ngày bắt đầu thuê phòng.
+ + KhuNha: Khu nhà của phòng liên quan đến hợp đồng; Kiểu dữ liệu NVARCHAR(50);FK: là khóa ngoại (phần của khóa ngoại SoPhong, KhuNha).
+Liên kết với bảng Phong để xác định phòng thuê; Có thể NULL vì một hợp đồng có thể chưa có thông tin về khu nhà.
 
- + NgayKetThuc: Ngày kết thúc thuê phòng.
+ + NgayLap: Ngày lập hợp đồng; Kiểu dữ liệu DATE; NOT NULL vì phải có ngày lập hợp đồng
+   
+ + NgayBatDau: Ngày bắt đầu hiệu lực của hợp đồng; Kiểu dữ liệu DATE; NOT NULL vì phải có ngày bắt đầu.
 
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/802cd00d-409d-4bfd-b875-2cf3171de5bf)
+ + NgayKetThuc: Ngày kết thúc hiệu lực của hợp đồng; Kiểu dữ liệu DATE;Có thể NULL vì có thể hợp đồng
+ chưa có ngày kết thúc (ví dụ: hợp đồng vẫn còn hiệu lực).
+
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/9f914a96-bd2d-4ab3-aced-1d325a24ec0f)
 
 
    Bảng Hóa đơn (HoaDon):
- + SoHoaDon: Số hóa đơn là trường duy nhất để định danh từng hóa đơn.
- + MaNV: Mã nhân viên lập hóa đơn (khóa ngoại tham chiếu đến bảng Nhân viên).
- + SoPhong: Số phòng của hóa đơn (khóa ngoại tham chiếu đến bảng Phòng).
- + KhuNha: Khu nhà của hóa đơn (khóa ngoại tham chiếu đến bảng Phòng).
- + NgayLap: Ngày lập hóa đơn.
- + TongTien: Tổng tiền phải thanh toán trong hóa đơn.
- + MaCongToDien: Mã công tơ điện.
- + ChiSoDienDau: Chỉ số điện ban đầu.
- + ChiSoDienCuoi: Chỉ số điện cuối.
- + MaCongToNuoc: Mã công tơ nước.
- + ChiSoNuocDau: Chỉ số nước ban đầu.
- + ChiSoNuocCuoi: Chỉ số nước cuối.
- + ThangGhiSo: Tháng ghi sổ hóa đơn.
    
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/dbb839f7-23a2-47f0-8337-e22cd0ecdc95)
+ + SoHoaDon: Số hóa đơn là trường duy nhất để định danh từng hóa đơn; Kiểu dữ liệu CHAR(10);PK: là khóa chính. Định danh duy nhất cho mỗi hóa đơn;
+FK: Không. Là trường chính trong bảng HoaDon; NOT NULL vì mỗi hóa đơn phải có số hóa đơn.
+
+ + MaNhanVien: Mã nhân viên lập hóa đơn; Kiểu dữ liệu CHAR(10);FK: Có, là khóa ngoại. Liên kết với bảng
+ NhanVien để xác định nhân viên lập hóa đơn;Có thể NULL vì một hóa đơn có thể chưa có mã nhân viên lập hóa đơn (ví dụ: hóa đơn chưa được lập).
+
+ + SoPhong:Số phòng liên quan đến hóa đơn; Kiểu dữ liệu CHAR(10); FK: Có, là khóa ngoại. Liên kết với bảng Phong
+để xác định phòng liên quan đến hóa đơn; Có thể NULL vì một hóa đơn có thể chưa có thông tin về số phòng.
+   
+ + KhuNha:Khu nhà của phòng liên quan đến hóa đơn; Kiểu dữ liệu NVARCHAR(50); FK: Có, là khóa ngoại (phần của khóa ngoại SoPhong, KhuNha).
+Liên kết với bảng Phong để xác định phòng liên quan đến hóa đơn; Có thể NULL vì một hóa đơn có thể chưa có thông tin về khu nhà.
+
+ + NgayLap: Ngày lập hóa đơn; Kiểu dữ liệu DATE; NOT NULL vì phải có ngày lập hóa đơn.
+
+ + MaCongToDien: Mã công tơ điện liên quan đến hóa đơn; Kiểu dữ liệu CHAR(10);Có thể NULL vì có thể hóa đơn không có thông tin về mã công tơ điện.
+   
+ + ChiSoDienDau:Chỉ số điện đầu kỳ; Kiểu dữ liệu INT; Có thể NULL vì có thể hóa đơn không có thông tin về chỉ số điện đầu kỳ.
+
+ + ChiSoDienCuoi: Chỉ số điện cuối; Kiểu dữ liệu INT;Có thể NULL vì có thể hóa đơn không có thông tin về chỉ số điện cuối kỳ.
+   
+ + MaCongToNuoc: Mã công tơ nước; Kiểu dữ liệu CHAR(10); Có thể NULL vì có thể hóa đơn không có thông tin về mã công tơ nước.
+
+ + ChiSoNuocDau: Chỉ số nước ban đầu; Kiểu dữ liệu INT; Có thể NULL vì có thể hóa đơn không có thông tin về chỉ số nước đầu kỳ.
+
+ + ChiSoNuocCuoi: Chỉ số nước cuối; Kiểu dữ liệu INT; Có thể NULL vì có thể hóa đơn không có thông tin về chỉ số nước cuối kỳ.
+
+ + ThangGhiSo: Tháng ghi sổ hóa đơn; Kiểu dữ liệu NVARCHAR(20); Có thể NULL vì có thể hóa đơn không có thông tin về tháng ghi số.
+   
+ + TongTien:Tổng số tiền của hóa đơn; Kiểu dữ liệu DECIMAL(18, 2); Có thể NULL vì có thể hóa đơn chưa được tính tổng tiền.
+
+   
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/2c0e5bb3-51ab-4eef-9844-6d2c2a1da6e0)
 
 
 3.3 Chức năng 
