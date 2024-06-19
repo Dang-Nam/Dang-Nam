@@ -1,16 +1,30 @@
 #QUẢN LÍ KÍ TÚC XÁ 
 
 
-    Thông tin sinh viên 
+ TÁC GIẢ
+
+ 
    + Họ tên: Đặng Phương Nam
    + MSSV: k215480106036
 
+
 3 MÔ TẢ BÀI TOÁN 
++ Bài toán quản lý giúp quản lý thông tin sinh viên ở kí túc xá.
++ Hệ thống sẽ lưu trữ các thông tin như: Sinh viên, Nhân viên, Phòng, Hóa đơn, Hợp đồng.
 
 
 3.1 Các chức năng 
-+ Quản lý sinh viên( thêm, sửa, xóa thông tin sinh viên và liệt kê tất cả các sinh viên trong bảng SinhVien(cursor))
-+ Quản lý hóa đơn(thêm, sửa, xóa hóa đơn, tính tổng hóa đơn)
++ Quản lý sinh viên:
+  - thêm thông tin
+  - sửa thông tin
+  - xóa thông tin sinh viên
+  - liệt kê tất cả các sinh viên trong bảng SinhVien(cursor).
++ Quản lý hóa đơn:
+  - thêm hóa đơn
+  - sửa sửa hóa đơn
+  - xóa hóa đơn
+  - tính tổng hóa đơn.
++ Quản lý hợp đồng: 
 
   
 3.2 Báo cáo
