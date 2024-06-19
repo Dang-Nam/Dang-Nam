@@ -15,25 +15,25 @@
 
 3.1 Các chức năng 
 + Quản lý sinh viên:
-  - thêm thông tin
-  - sửa thông tin
-  - xóa thông tin sinh viên
-  - liệt kê tất cả các sinh viên trong bảng SinhVien(cursor).
+  - Thêm thông tin
+  - Sửa thông tin
+  - Xóa thông tin sinh viên
+  - Liệt kê tất cả các sinh viên trong bảng SinhVien(cursor).
 + Quản lý hóa đơn:
-  - thêm hóa đơn
-  - sửa sửa hóa đơn
-  - xóa hóa đơn
-  - tính tổng hóa đơn.
+  - Thêm hóa đơn
+  - Sửa sửa hóa đơn
+  - Xóa hóa đơn
+  - Tính tổng hóa đơn.
 + Quản lý hợp đồng:
-  - thêm hợp đồng mới
-  - sửa 'ngày kết thúc hợp đồng'
-  - xóa hợp 
+  - Thêm hợp đồng mới
+  - Sửa 'ngày kết thúc hợp đồng'
+  - Xóa hợp 
 
   
 3.2 Báo cáo
 
  + Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
- + Báo cáo về lớp và số lượng sinh viên ktx đang học lớp đó
+ + Báo cáo về lớp sinh viên và số lượng sinh viên trong ktx đang học lớp đó
  + Báo cáo số điện đã dùng
 
    
