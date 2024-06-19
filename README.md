@@ -1,19 +1,19 @@
 #QUẢN LÍ KÍ TÚC XÁ 
 
 
- TÁC GIẢ
+ #TÁC GIẢ
 
  
    + Họ tên: Đặng Phương Nam
    + MSSV: k215480106036
 
 
-3 MÔ TẢ BÀI TOÁN 
+#MÔ TẢ BÀI TOÁN 
 + Bài toán quản lý  kí túc xá.
 + Hệ thống sẽ lưu trữ các thông tin như: Sinh viên, Nhân viên, Phòng, Hóa đơn, Hợp đồng.
 + Kiểm soát các thông tin về tình trạng phòng, sinh viên , nhân viên.
 
-3.1 Các chức năng 
+1 Các chức năng 
 + Quản lý sinh viên:
   - Thêm thông tin
   - Sửa thông tin
@@ -30,14 +30,14 @@
   - Xóa hợp 
 
   
-3.2 Báo cáo
+2 Báo cáo
 
  + Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
  + Báo cáo về lớp sinh viên và số lượng sinh viên trong ktx đang học lớp đó
  + Báo cáo số điện đã dùng
 
    
-3.3 Các bảng 
+3 Các bảng 
 
 
 Bảng Sinh viên (SinhVien):
@@ -177,8 +177,12 @@ Liên kết với bảng Phong để xác định phòng liên quan đến hóa 
    
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/2c0e5bb3-51ab-4eef-9844-6d2c2a1da6e0)
 
++ Mối quan hệ giữa các bảng 
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1fda6e74-d030-4b44-8f16-7f2f86e2bd72)
 
-3.3 Chức năng 
+
+
+3 Chức năng 
 
 
 + thêm thông tin sinh viên
@@ -221,7 +225,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1dc8bd84-bc1f-4d0d-88b6-0fa6da1ab8e1)
 
 
-+ sửa thông tin hóa đơn
++ Sửa thông tin hóa đơn
 
 
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/69f9247a-2875-4513-b870-2911fae8851e)
@@ -229,7 +233,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/16677d12-5f10-4d7a-9868-b459e518e07e)
 
 
-  +xóa hóa đơn
+  +Xóa hóa đơn
 
  
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/5c2d6622-f2f9-4309-883d-837d6444de75)
@@ -242,7 +246,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/3c3ca906-1c14-48a2-8a38-9a18b6b09e52)
 
-  + kết quả
+  + Kết quả
 
 
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/66eecbfc-15e2-45ac-b66b-3e40a3152402)
@@ -255,7 +259,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
   - Gọi sp: EXEC ThemHopDong 'HD003', 'SV001', 'NV001', 'P001', 'Khu A', '2024-06-19', '2024-06-20', '2024-12-31'; để thêm hợp đồng mới
 
-+ cập nhât thông tin '  ngày kết thúc '
++ CCập nhât thông tin '  ngày kết thúc '
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/a61bdb24-cf09-4c4d-9aa9-e32844975b27)
 
@@ -274,11 +278,11 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
 + Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
 
-  - tính số lượng phòng đang được sử dụng từ bảng Phong trong cơ sở dữ liệu
+  - Tính số lượng phòng đang được sử dụng từ bảng Phong trong cơ sở dữ liệu
     
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/88907991-a4bd-4d0e-b7f1-5db6734a82d1)
 
-  - kết quả
+  - KKết quả
 
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/eb856425-26ee-4c39-9279-582e39fe2fe3)
     
@@ -288,7 +292,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
     
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/8bd0b61f-450e-4bd3-9b11-4c8abfdca46b)
 
-  - kết quả
+  - Kết quả
 
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/84106a6c-a92f-4b31-a4f7-2191e8d5c58f)
 
@@ -309,7 +313,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b7f39e7b-5e3a-408f-b516-d89458540ad3)
 
-+ kết quả
++ KKết quả
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/17c0205a-6a84-4836-a744-061c6772a835)
 
