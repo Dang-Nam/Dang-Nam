@@ -9,9 +9,9 @@
 
 
 3 MÔ TẢ BÀI TOÁN 
-+ Bài toán quản lý giúp quản lý thông tin sinh viên ở kí túc xá.
++ Bài toán quản lý  kí túc xá.
 + Hệ thống sẽ lưu trữ các thông tin như: Sinh viên, Nhân viên, Phòng, Hóa đơn, Hợp đồng.
-
++ Kiểm soát các thông tin về tình trạng phòng, sinh viên , nhân viên.
 
 3.1 Các chức năng 
 + Quản lý sinh viên:
@@ -24,12 +24,16 @@
   - sửa sửa hóa đơn
   - xóa hóa đơn
   - tính tổng hóa đơn.
-+ Quản lý hợp đồng: 
++ Quản lý hợp đồng:
+  - thêm hợp đồng mới
+  - sửa 'ngày kết thúc hợp đồng'
+  - xóa hợp 
 
   
 3.2 Báo cáo
 
- + Báo cáo về tình trạng phòng
+ + Báo cáo thông tin về các phòng đã được sử dụng.
+ + 
 
 3.3 Các bảng 
 
@@ -241,8 +245,32 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
     ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/66eecbfc-15e2-45ac-b66b-3e40a3152402)
 
+ *QUẢN LÝ HỢP ĐỒNG 
 
-BÁO CÁO 
+ +Thêm hợp đồng
+
+ ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/8af11830-9e0a-463f-817a-917f695c8fca)
+
+  - Gọi sp: EXEC ThemHopDong 'HD003', 'SV001', 'NV001', 'P001', 'Khu A', '2024-06-19', '2024-06-20', '2024-12-31'; để thêm hợp đồng mới
+
++ cập nhât thông tin '  ngày kết thúc '
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/a61bdb24-cf09-4c4d-9aa9-e32844975b27)
+
+
+  - Gọi sp: EXEC CapNhatNgayKetThucHopDong 'HD001', '2024-12-31'; để cập nhật thông tin ngày kết thúc của hợp đồng HD001
+
++ Xóa hợp đồng
+
+
+![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/38d4d36f-350f-4ac3-89ad-87050acefdcf)
+
+  - Gọi sp: EXEC XoaHopDong 'HD001'; để xóa hợp đồng HD001
+
+
+
+
+3.4 Báo cáo 
 
 + Báo cáo thông tin
   
@@ -256,13 +284,9 @@ BÁO CÁO
   
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/be06b335-1ad9-4210-b8e3-5d2faea787de)
 
-+-- Báo cáo về nhân viên có chức vụ là quản lý
++ Báo cáo về nhân viên có chức vụ là quản lý
 
 ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1ea0768a-c893-4e2e-817e-b757d7a5f6e4)
-
-
-TIẾN ĐỘ 
-NGÀY 16/6/2024 TẠO CƠ SỞ DỮ LIỆU
 
 
 
