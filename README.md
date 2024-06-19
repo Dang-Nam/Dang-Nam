@@ -182,7 +182,7 @@ Liên kết với bảng Phong để xác định phòng liên quan đến hóa 
 
 
 
-3 Chức năng 
+4 Chức năng 
 
 
 + thêm thông tin sinh viên
@@ -274,7 +274,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
   - Gọi sp: EXEC XoaHopDong 'HD001'; để xóa hợp đồng HD001
 
 
-3.4 Báo cáo 
+5 Báo cáo 
 
 + Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
 
@@ -307,7 +307,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
       ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1e20d67e-d851-4692-b5f5-767be8f104d0)
 
-4 Function để quản lý hợp đồng thuê 
+6 Function để quản lý hợp đồng thuê 
 
 + Sử dụng FN để quản lý hợp đồng thuê
 
