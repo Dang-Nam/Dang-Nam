@@ -303,7 +303,15 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
       ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1e20d67e-d851-4692-b5f5-767be8f104d0)
 
+4 Function để quản lý hợp đồng thuê 
 
++ Sử dụng FN để quản lý hợp đồng thuê
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b7f39e7b-5e3a-408f-b516-d89458540ad3)
+
++ kết quả
+
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/17c0205a-6a84-4836-a744-061c6772a835)
 
 
 
