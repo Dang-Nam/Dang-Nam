@@ -32,9 +32,11 @@
   
 3.2 Báo cáo
 
- + Báo cáo thông tin về các phòng đã được sử dụng.
- + 
+ + Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
+ + Báo cáo về lớp và số lượng sinh viên ktx đang học lớp đó
+ + Báo cáo số điện đã dùng
 
+   
 3.3 Các bảng 
 
 
@@ -268,26 +270,38 @@ QUẢN LÝ BẢNG HÓA ĐƠN
   - Gọi sp: EXEC XoaHopDong 'HD001'; để xóa hợp đồng HD001
 
 
-
-
 3.4 Báo cáo 
 
-+ Báo cáo thông tin
-  
-  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/00063786-f1e4-4b8b-a3d5-0bd3ae512c7c)
++ Báo cáo số phòng đang trong tình trạng ' đang sử dụng '
 
-+ Báo cáo về sử dụng nước
+  - tính số lượng phòng đang được sử dụng từ bảng Phong trong cơ sở dữ liệu
+    
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/88907991-a4bd-4d0e-b7f1-5db6734a82d1)
 
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/71297069-dc95-4131-81ed-0c27ac346493)
+  - kết quả
 
-+ Báo cáo về tình trạng sinh viên
-  
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/be06b335-1ad9-4210-b8e3-5d2faea787de)
+    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/eb856425-26ee-4c39-9279-582e39fe2fe3)
+    
++ Báo cáo số điện đã dùng
 
-+ Báo cáo về nhân viên có chức vụ là quản lý
+  - Tính tổng lượng điện tiêu thụ bằng cách lấy SUM(ChiSoDienCuoi - ChiSoDienDau) từ bảng HoaDon.
+    
+  ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/8bd0b61f-450e-4bd3-9b11-4c8abfdca46b)
 
-![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1ea0768a-c893-4e2e-817e-b757d7a5f6e4)
+  - kết quả
 
+    ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/84106a6c-a92f-4b31-a4f7-2191e8d5c58f)
+
+
++ Báo cáo về lớp và số lượng sinh viên ktx đang học lớp đó
+
+    - Tạo sp để báo cáo về các lớp mà sv ktx đg học và có bao nhiêu sinh viên học lớp đó
+ 
+      ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/21d65b02-6ca6-4bf2-a342-cf28a2dc5977)
+
+    - Kết quả
+
+      ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/1e20d67e-d851-4692-b5f5-767be8f104d0)
 
 
 
