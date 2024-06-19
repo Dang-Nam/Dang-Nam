@@ -1,14 +1,14 @@
-#QUẢN LÍ KÍ TÚC XÁ 
+# QUẢN LÍ KÍ TÚC XÁ 
 
 
- #TÁC GIẢ
+ # TÁC GIẢ
 
  
    + Họ tên: Đặng Phương Nam
    + MSSV: k215480106036
 
 
-#MÔ TẢ BÀI TOÁN 
+# MÔ TẢ BÀI TOÁN 
 + Bài toán quản lý  kí túc xá.
 + Hệ thống sẽ lưu trữ các thông tin như: Sinh viên, Nhân viên, Phòng, Hóa đơn, Hợp đồng.
 + Kiểm soát các thông tin về tình trạng phòng, sinh viên , hóa đơn, hợp đồngđồng.
