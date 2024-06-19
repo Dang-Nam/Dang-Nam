@@ -1,4 +1,4 @@
-##QUẢN LÍ KÍ TÚC XÁ 
+#QUẢN LÍ KÍ TÚC XÁ 
 
 
  #TÁC GIẢ
@@ -11,7 +11,7 @@
 #MÔ TẢ BÀI TOÁN 
 + Bài toán quản lý  kí túc xá.
 + Hệ thống sẽ lưu trữ các thông tin như: Sinh viên, Nhân viên, Phòng, Hóa đơn, Hợp đồng.
-+ Kiểm soát các thông tin về tình trạng phòng, sinh viên , nhân viên.
++ Kiểm soát các thông tin về tình trạng phòng, sinh viên , hóa đơn, hợp đồngđồng.
 
 1 Các chức năng 
 + Quản lý sinh viên:
@@ -313,7 +313,7 @@ QUẢN LÝ BẢNG HÓA ĐƠN
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/b7f39e7b-5e3a-408f-b516-d89458540ad3)
 
-+ KKết quả
++ Kết quả
 
   ![image](https://github.com/Dang-Nam/Dang-Nam/assets/168844237/17c0205a-6a84-4836-a744-061c6772a835)
 
